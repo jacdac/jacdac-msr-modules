@@ -41,12 +41,12 @@ jobs:
       run: make check-release
 
     - name: Upload drop.uf2
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: drop.uf2
         path: built/drop.uf2
     - name: Upload bootloader-update.uf2
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: bootloader-update.uf2
         path: built/bootloader-update.uf2
