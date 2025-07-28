@@ -10,8 +10,8 @@ _IGNORE1 := $(shell test -f $(JD_STM)/stm32/cmsis_device_g0/README.md || git sub
 include Makefile.user
 
 # these don't have .uf2 files
-NO_DROP_TARGETS ?= \
-	lora-e5-88-4.0 \
+#NO_DROP_TARGETS ?= \
+#	lora-e5-88-4.0 \
 
 # these go into fw-VERSION.uf2
 DROP_TARGETS ?= \
